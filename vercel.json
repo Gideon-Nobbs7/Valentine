@@ -1,4 +1,8 @@
 {
+    "build": {
+      "command": "npm run build",
+      "output": "dist"
+    },
     "routes": [
       { "handle": "filesystem" },
       { "src": "/.*", "dest": "/index.html" }
